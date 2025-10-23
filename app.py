@@ -119,7 +119,7 @@ nn, neighbor_indices, neighbor_distances = build_content_nn(product_embeddings, 
 popularity = build_popularity(df)
 
 # ---------- Load train_matrix.npz ----------
-train_matrix_path = '/Users/amalarembeth/recommeder123/train_matrix.npz'
+train_matrix_path = 'train_matrix.npz'
 user_factors, item_factors = None, None
 
 if os.path.exists(train_matrix_path):
